@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'FreeSerif';
+  src: url('../assets/font/FreeSerifItalic.woff2') format('woff2'),
+    url('../assets/font/FreeSerifItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$fa-font-path: '../assets/font/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+.btn-circle {
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 6px 0px;
+  border-radius: 1.15rem;
+  text-align: center;
+}
