@@ -62,6 +62,10 @@ module.exports = {
               {
                 source: path.join(__dirname, 'src/font'),
                 destination: path.join(__dirname, 'public/assets/font'),
+              },
+              {
+                source: path.join(__dirname, 'src/favicon'),
+                destination: path.join(__dirname, 'public/assets/favicon'),
               }
             ],
           },
