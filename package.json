@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "deploy": "webpack && rsync -avzh ./public/* 'jminguely@ssh-jminguely.alwaysdata.net:www/angstrom.band/'"
   },
   "keywords": [],
   "author": "",
